@@ -59,7 +59,7 @@ Las principales son:
 
 ---
 
-# Teorema CAP
+## Teorema CAP
 
 El **teorema CAP** establece que un sistema distribuido, ante una **partición de red**, no puede garantizar simultáneamente las tres propiedades:
 
@@ -87,7 +87,7 @@ El sistema debe continuar funcionando aunque exista una **interrupción de comun
 
 ---
 
-## ¿Por qué no se pueden tener las 3 CAP?
+### ¿Por qué no se pueden tener las 3 CAP?
 
 Aquí hay una pequeña precisión importante: **CAP no dice que un sistema distribuido nunca pueda tener C, A y P simultáneamente en condiciones normales.** El punto es que **cuando ocurre una partición de red (P), no puede garantizar al mismo tiempo C y A**.
 
@@ -172,41 +172,29 @@ Cuando vuelve la comunicación, los datos pueden sincronizarse.
 
 ### ¿Qué es una librería?
 
-Una **librería** es un conjunto de código reutilizable que proporciona funciones o herramientas para resolver problemas específicos.
+Una **librería** es un conjunto de código reutilizable que proporciona funciones para resolver problemas específicos.
 
 El **programador decide cuándo y cómo utilizarla**.
 
 **Ejemplo:** una librería para trabajar con fechas proporciona funciones para calcular, comparar o formatear fechas.
-
-> **Tú llamas a la librería.**
-
 ### ¿Qué es un framework?
 
-Un **framework** es una estructura o plataforma que proporciona una base para desarrollar una aplicación y establece una forma determinada de organizarla.
+Un **framework** es una estructura que proporciona una base para desarrollar una aplicación.
 
 En un framework, el programa sigue ciertas reglas y el framework puede encargarse del flujo principal de ejecución.
 
-> **El framework llama a tu código.**
-
 ### Diferencia principal
 
-|Librería|Framework|
-|---|---|
-|Tú controlas el flujo.|El framework controla gran parte del flujo.|
-|Utilizas sus funciones cuando las necesitas.|Proporciona una estructura para construir la aplicación.|
-|Mayor libertad de organización.|Establece reglas y estructura.|
-
-**Forma fácil de recordarlo:**
-
-> **Librería:** _yo la llamo._  
-> **Framework:** _él me llama._
+| Librería                                     | Framework                                                |
+| -------------------------------------------- | -------------------------------------------------------- |
+| Tú controlas el flujo.                       | El framework controla gran parte del flujo.              |
+| Utilizas sus funciones cuando las necesitas. | Proporciona una estructura para construir la aplicación. |
+| Mayor libertad de organización.              | Establece reglas y estructura.                           |
 
 ---
 
-# Lenguaje y tecnología
-
+## Lenguaje y tecnología
 ### ¿Qué es un lenguaje?
-
 Un **lenguaje de programación** es un lenguaje formal utilizado para escribir instrucciones que una computadora puede ejecutar.
 
 **Ejemplos:** Java, Python, JavaScript, C++.
@@ -214,18 +202,7 @@ Un **lenguaje de programación** es un lenguaje formal utilizado para escribir i
 ### ¿Qué es una tecnología?
 
 Una **tecnología** es una herramienta, plataforma, sistema, técnica o conjunto de herramientas utilizadas para resolver un problema o desarrollar una solución.
-
 Puede incluir **lenguajes, frameworks, librerías, protocolos, bases de datos, servidores, etc.**
-
-**Ejemplo:**
-
-En una aplicación web podríamos utilizar:
-
-- Java → lenguaje.
-- Spring Boot → framework.
-- PostgreSQL → tecnología/base de datos.
-- Docker → tecnología de virtualización/contenerización.
-- HTTP → protocolo de comunicación.
 
 ### Diferencia
 
@@ -233,9 +210,7 @@ En una aplicación web podríamos utilizar:
 > **Tecnología:** engloba herramientas y soluciones utilizadas para construir el sistema.
 
 ---
-
-# Concurrencia
-
+## Concurrencia
 ### ¿Qué es concurrencia?
 
 La **concurrencia** es la capacidad de un sistema para **gestionar varias tareas que avanzan durante el mismo período de tiempo**, pudiendo alternar entre ellas o ejecutarlas simultáneamente.
@@ -252,14 +227,14 @@ Responder al usuario
 
 sin tener que terminar completamente una tarea antes de comenzar a trabajar con otra.
 
-⚠️ **Concurrencia ≠ paralelismo**
+**Concurrencia ≠ paralelismo**
 
 - **Concurrencia:** varias tareas progresan de forma intercalada.
 - **Paralelismo:** varias tareas se ejecutan realmente al mismo tiempo, normalmente usando varios núcleos.
 
 ---
 
-# Concurrencia en sistemas distribuidos
+### Concurrencia en sistemas distribuidos
 
 En un **sistema distribuido**, la concurrencia ocurre cuando **varios procesos o componentes ubicados en diferentes nodos ejecutan operaciones al mismo tiempo o de forma independiente**.
 
@@ -278,20 +253,17 @@ Los diferentes nodos pueden trabajar simultáneamente y necesitan **coordinarse*
 ### Diferencia
 
 **Concurrencia tradicional:**
-
-> Varias tareas pueden ejecutarse dentro de un mismo sistema o computador.
+Varias tareas pueden ejecutarse dentro de un mismo sistema o computador.
 
 **Concurrencia distribuida:**
-
-> Varias tareas pueden ejecutarse en diferentes computadores o nodos y necesitan comunicarse y coordinarse mediante una red.
+Varias tareas pueden ejecutarse en diferentes computadores o nodos y necesitan comunicarse y coordinarse mediante una red.
 
 ---
-
-# Hilos
+## Hilos
 
 ### ¿Qué es un hilo?
 
-Un **hilo (thread)** es una unidad de ejecución dentro de un proceso.
+Un **hilo** es una unidad de ejecución dentro de un proceso.
 
 Un proceso puede tener **varios hilos**, que comparten recursos del proceso pero pueden ejecutar diferentes tareas.
 
@@ -309,7 +281,7 @@ Los hilos permiten realizar varias tareas de forma concurrente dentro de una apl
 
 ---
 
-# Hilos en sistemas distribuidos
+### Hilos en sistemas distribuidos
 
 En un sistema distribuido, los hilos pueden utilizarse dentro de los diferentes nodos para **atender múltiples solicitudes o ejecutar varias tareas concurrentemente**.
 
@@ -330,15 +302,14 @@ Cada servidor puede tener sus propios hilos, mientras que los servidores se comu
 
 **Hilos normales:**
 
-> Ejecutan tareas concurrentes dentro de un mismo computador/proceso.
+Ejecutan tareas concurrentes dentro de un mismo computador/proceso.
 
 **Hilos en sistemas distribuidos:**
 
-> Ejecutan tareas concurrentes en los diferentes nodos del sistema, que además deben comunicarse mediante la red.
+Ejecutan tareas concurrentes en los diferentes nodos del sistema, que además deben comunicarse mediante la red.
 
 ---
-
-# Sockets
+## Sockets
 
 ### ¿Qué es un socket?
 
@@ -362,8 +333,6 @@ Por ejemplo:
 - `8080` → puerto donde escucha la aplicación.
 
 ### ¿Cómo funcionan?
-
-Un modelo básico es:
 
 ```
 Cliente                         Servidor

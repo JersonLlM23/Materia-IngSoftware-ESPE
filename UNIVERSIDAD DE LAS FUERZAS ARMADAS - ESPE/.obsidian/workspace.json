@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "b12c270d88e5ff6d",
+            "id": "74afbcf90de04a3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +35,7 @@
               "title": "Ing. de la seguridad de Software"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,10 +185,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b12c270d88e5ff6d",
+  "active": "9e0f0b1ec37a3f2b",
   "lastOpenFiles": [
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la Calidad de Software.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
     "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Sistemas de bases de datos avanzados..md",

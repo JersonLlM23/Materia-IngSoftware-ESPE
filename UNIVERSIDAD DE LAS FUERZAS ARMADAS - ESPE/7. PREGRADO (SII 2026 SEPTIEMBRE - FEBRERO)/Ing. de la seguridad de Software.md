@@ -270,9 +270,116 @@ autorizar: validación adicional para corroborar q el user es quien dice ser ?
 DEl triangulo al hexagono:
 Parker amplia cia con posesion/control, autenticidad y utilidad para distinguir porblemas q CIA puede agrupal demasiado
 
-Confiencialidad - posesion
-Integridad - aitentciddad
+Confiencialidad - posesion/control
+Integridad - autenticidad
 Disponibilidad - utilidad
+
+Posesión/control
+Se refiere a quien tiene control fisico o lógico sobre la información o el activo.
+	Un ejemplo, un portátil corporativo cifrado es robado. Tal vez el ladrón no pueda leer los datos, por lo que la confidencialidad puede mantenerse. Sin embargo la organización perdió 
+	posesion/control dispositivo
+
+Autenticidad
+Se refiere a 
+.
+.
+.
+CIA: Confiencialidad, integridad, disponibilidad. qn accede? esta correcto? está disponible?
+Hexag: quien controla? , ..
+
+
+-----
+Miniquiz:
+1. Un usuario consulta daots de otro usuario sin autorización. q propiedad se afecta
+2.  Un pedido cambia de 50 a 500 $ sin autorizacion. Que propiedad se afecta?
+3. El servicio está caido durante la matricula. ¿Qué propiedad se afecta?
+	La Disponibilidad es afectada porque el servicio no se encuentra accesible cuando los usuarios lo necesitan
+4. Un dispositivo cifrado es robado. Que propiedad adicional del Hexad ayuda a analizar el caso?
+		La posesión/Control. Aunque la información permanezca cifrada y confidencial, el dispositivo físico ya no está bajo el control de su propietario.
+	
+5. Un respaldo existe pero no puede restaurarse q propiedad permite describir mejor el problema
+
+------
+## Autenticidad / trazabilidad
+
+Autenticidad
+Permite establecer que una identidad, entidad, mensaje, archivo o transacción es genuina y corresponder realmente a quien afirma ser. 
+
+Ejemplo: Un usuario inicia sesión con sus credenciales y un segundo factor. EL sistema no solo recibe un nombre de usuario: intenta comprobar que la persona que se presenta como jsllumiquinga1 es realmente quien dice ser.
+
+Riesgo
+Si la autenticidad falla, un atacante puede hacerse pasar por otra persona servicio o sistema.
+
+Trazabilidad
+Permite registrar, reconstruir y seguir las acciones realizadas dentro de un sistema.
+Un log es útil, debe tener:
+-  Fecha y hora
+-  Usuario o identidad
+- Direccion ip o contexto de origen
+- operacion realizada
+- recurso afectado
+- resultado
+- identificador de correlacion cuando corresponda
+
+-----
+Responsabilidad
+. . .
+
+---
+No repudio:
+El no repudio busca disponer de evidencia suficiente para que una entidad no pueda negar posteriormente haber realizado una acción relevante.
+
+EJemplos: 
+- firma digital de un documento
+- Aprobación registrada de una transferencia
+- confirmación de una operacion con evidencia verificable
+- ransaccion asociada a identidad, tiempo y mecanismos criptograficos
+
+EL no repudio no es sinonimo de autenticidad o trazabilidad, se apoya de ellas.
+
+-----
+Amenaza, vulnerabilidad, riesgo y ataque
+Modelo de analisis
+activo / amenza / vulnerabilidad/ ataque / impacto / riesgo / control /verificacion
+
+Activo:
+ES aquello que tiene valor y debe protegerse.
+	Credenciales, datos personales, apis, codigo fuente, disponibilidad de una aplicación, reputación
+
+Amenaza:
+Es una circunstancia, actor o evento con capacidad de causar daño a un activo.
+	Cibrdelicuente, error humano, fallo eléctrico, malware, incendios
+La amenaza puede existir aunque no haya ataque
+
+Vulnerabilidad.
+Es una debilidad ue puede ser aprovechada por una amenaza
+	Contraseña debil, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

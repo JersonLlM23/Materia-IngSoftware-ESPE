@@ -48,3 +48,77 @@ ajuste (mantenimiento: refactorizar)
 version (relase: version estable)
 
 el ciclo de vida es iterativo: cada version vuelve a la idea con lo aprendido
+
+------
+Arquitectura básica:
+Entrada del jugador - Lógica del juego - Entidades / Escenas - Motor  - Render - audio - física
+
+Separacion de responsabildiades: cada script debe hacer 1 cosa
+Modularidad: piezas independientes
+reutilizacion: una escena, muchas copias
+mantenibilidad: cambiar sin romper
+
+-----
+CControl de versiones y trabajo en equipo
+git: la maquina del tiempo de tu proyecto.
+repository: carpeta con historial
+commit: foto del proyecto
+branch: rama para probar ideas
+merge: une dos ramas
+versionado
+
+-----
+teoria: acoplamiento y cohesion
+dos ideas que deciden si tu juego crece sano
+alto complamiento: player.gd modifica directamente el hud, el puntaje y a los enemigos
+bajo complamiento: el jugador emite una señal y cada sistema decide como reaccionar
+
+Resp. unica: un script - una tareaa.
+cohesion alta: lo relaciono va junto
+acoplamiento bajo: pocas dependencias
+
+si cambiar el puntaje te obliga a editar player.gd, hay acoplamiento
+
+---------
+Patron de diseño
+Como una receta: no reinventamos como cocinar cada vez
+Problema recurrente -> solución conocida -> patrón de diseño
+
+Problema: muchos elementos necesitan avisar al HUD (patron: observer)
+Problema: un personaje con muchos comportamientos (patron state)
+problema: un oslo gestor de la partida (singleton)
+Un patron es una idea reutilizable, no code para copiar y pegar.
+
+------
+Singleton
+un unico gamemanager global
+player - enemy - hud - gamermanager
+
+observer: coin recogida - evento - puntos
+jugador recoge monedas - envento coin_collected - score manager +10
+
+state
+un estado activo a la vez
+idle - run - jump - attack - dead
+
+-------
+patron sate:
+Un solo estado decide el comportamiento:
+idle - run - jump - dead
+organizacion clara, mantenimiento facil, añadir estados nuevos, menos if anidados
+
+----
+observer y singleton
+ventaja o: el emisor no conoce a lo receptores
+riesgo: demasiados eventos son dificiles de rastrear
+
+ventaja s: acceso global simple al gamemanager
+riesgo: estado global y dependencias ocultas
+
+------
+Motor de videojuegos:
+Divide el tra
+
+
+
+Comparar 3 motores con crierios tecnicos y recom

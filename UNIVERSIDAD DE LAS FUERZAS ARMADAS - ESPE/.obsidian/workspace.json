@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "8cc70b8f39f87be4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecf603efb15895f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e0f0b1ec37a3f2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Desarrollo de Software Seguro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf0d90ab1dd9421e",
+    "type": "split",
+    "children": [
+      {
+        "id": "14b8c407346e6b51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "293e191c539cdd15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "ed9eace678aa3521",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"vs\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "3c6d54d4db586932",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0c9ebf0df1518a34",
+    "type": "split",
+    "children": [
+      {
+        "id": "331daf41210a54b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bb72680be6c362a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Sistemas Operativos"
+            }
+          },
+          {
+            "id": "5f4d89dabfcade7a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Sistemas Operativos"
+            }
+          },
+          {
+            "id": "4f145a8a89be9957",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "b4dbe5dde40b5fa6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Sistemas Operativos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "9e0f0b1ec37a3f2b",
+  "lastOpenFiles": [
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la Calidad de Software.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",
+    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Sistemas de bases de datos avanzados..md",
+    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Ingeniería de Requisitos_20260818_090624.md",
+    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Sistemas de bases de datos avanzados._20260818_090624.md",
+    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Redes de Computadoras..md",
+    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Redes de Computadoras._20260818_090624.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Sistemas Distribuidos.md",
+    "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)",
+    "Pasted image 20260422101149.png",
+    "Pasted image 20260708094934.png",
+    "Pasted image 20260708094343.png",
+    "Pasted image 20260708093922.png",
+    "Pasted image 20260708093915.png",
+    "Pasted image 20260708093616.png"
+  ]
+}

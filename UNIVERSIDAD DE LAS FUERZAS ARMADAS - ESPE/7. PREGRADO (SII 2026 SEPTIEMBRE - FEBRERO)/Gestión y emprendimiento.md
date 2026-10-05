@@ -49,6 +49,41 @@ Cuando se organiza una estructura para ofrecer y comercializar esa aplicación, 
 La persona que dirige y administra esa empresa actúa como **empresario**.
 
 
+--------
+Actitudes y habilidades emprendedoras
+
+Potencial de un emprendedor:
+
+-----
+Emprendimiento segun joseph schumpeter
+5 formas:
+1. tener un nuevo producto, proceso, nueva forma de organizacion industrial, nuevo mercado
+2. tenemos que romper el monopolio
+3. 
+
+
+
+
+
+
+
+UNIDAD II: Padre rico, padre pobre: Robert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

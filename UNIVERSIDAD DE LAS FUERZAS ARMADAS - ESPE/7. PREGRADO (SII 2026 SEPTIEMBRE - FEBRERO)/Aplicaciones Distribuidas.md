@@ -190,6 +190,10 @@ En un framework, el programa sigue ciertas reglas y el framework puede encargars
 | Tú controlas el flujo.                       | El framework controla gran parte del flujo.              |
 | Utilizas sus funciones cuando las necesitas. | Proporciona una estructura para construir la aplicación. |
 | Mayor libertad de organización.              | Establece reglas y estructura.                           |
+**Ejemplos de frameworks:**
+•  Angular (para interfaces web)
+• Django (para desarrollo backend con Python)
+• Laravel (para desarrollo web con PHP)
 
 ---
 

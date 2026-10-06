@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "686e5b228adcc262",
+        "id": "813ad4d100bfd100",
         "type": "tabs",
         "children": [
           {
-            "id": "8226eebc04b7d1d1",
+            "id": "0fcfe19feae0ad0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la Calidad de Software.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Desarrollo de Software Seguro"
+              "title": "Aseguramiento de la Calidad de Software"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0c9ebf0df1518a34",
@@ -171,7 +172,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "8226eebc04b7d1d1",
+  "active": "0fcfe19feae0ad0d",
   "lastOpenFiles": [
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de videojuegos.md",

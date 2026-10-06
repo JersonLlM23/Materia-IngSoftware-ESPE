@@ -47,7 +47,7 @@ CALIDAD:
 Conjunto de actividades que permiten satisfacer necesidades de un colectivo.
 Grado en el que un conjunto de características cumple con los req
 Satisfaccion del cliente y cobformidad con sus req
-Grado de satisfacción
+Grado de satisfacción que produce el cliente
 
 -----
 Evolución:
@@ -78,6 +78,43 @@ Costos para asegurar la calidad o costos de
 COstos por falta de calidad o costos de no conformidad
 
 Costos de prevencion, evaluacion, fallas internas, fallas externas
+
+
+---------
+1970> pruebas manuales y correcion de errores
+1983> ieee 730 estandar que grantiza la calidad
+1991 cmm nivel 5 madurez de procesos
+1995 ISO 2196 mantenibilidad / portabilidad
+2001 metodlogia agiles
+2010 DEvops + ci/cd integracion de la calidad
+2015 Automatizacion masiva de pruebas
+2020 IA y monitoreo predictivo en calidad
+
+------
+Uno de los factores para promover un proceso de mejoramiento continuo de la calidad consiste en recopilar, documentar, y usar la informacion sobre los costos relacionados con la calidad.
+
+---
+## Factores clave de calidad del software
+- Funcionalidad.- Cumple con lo que el usuario necesita > presicion, interoperatibilidad, seguridad funcional
+- Rendimiento / eficiencia> uso eficiente de recursos 
+- Usabilidad > facil de aprender y usar
+- Confiabilidad > funciona sin fallos durante tiempo prolongado
+- Seguridad >resiste accesos no autorizados
+- Mantenibilidad facil de modificar corregir o mejorar
+- Portabilidad > se adapta a diferentes entornos.
+
+-----
+## Como se mide la calidad del software
+- Pruebas automatizadas: Cobertura de código (% de líneas probadas), número de bugs encontrados vs resueltos. 
+- Métricas técnicas.- Tiempo de respuesta <2 seg es ideal, uso de cpu/memoria bajo condiciones máximas, rendimiento en pruebas de carga (ejm: 1000 users)
+- Prácticas de desarrollo: Integración continua CI/CD, REvisiones de code, uso de estándares (SOLID)
+- UX: tiempo promedio para completar una tarea, tasa de abandono en procesos clave, encuestaas de satisfacciòn (NPS, CSAT)
+
+----
+
+
+
+
 
 
 

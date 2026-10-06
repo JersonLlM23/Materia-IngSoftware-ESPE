@@ -1,4 +1,4 @@
-**
+*
 
 ENTORNOS GREENFILE
 Iniciar desde 0, desde los requisitos hasta 

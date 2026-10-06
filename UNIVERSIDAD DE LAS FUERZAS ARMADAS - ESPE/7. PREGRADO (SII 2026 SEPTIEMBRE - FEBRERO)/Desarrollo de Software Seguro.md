@@ -331,6 +331,67 @@ KEV / EPSS.- Prioriza explotación real y probable.
 Descubrir > Clasificar > Puntuar > Priorizar > Remediar > Verificar
 
 --------
+Prueba: Vector de ataque av.n/ac.l/pr-
+https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
+un caso o nos da el vector de ataque e identificarlo 
+
+![[Pasted image 20261006100941.png]]
+
+------
+## Gestión de riesgos de seguridad del software.
+Dato: Hecho aislado y sin contexto. --------
+- Valores
+- Identificadores
+- Atributos
+- Sin significados por sí solos
+
+--------> Información: Dato procesado, con contexto y valor.
+CVE-2026-1234
+- CVSS: 9.8
+- CWE-79 (XSS)
+- Producto: Product X
+- Versión: 1.2.3
+- Publicado: 15 jul. 2026
+- Permite priorizar, evaluar el riesgo y toma de decisiones. 
+
+------
+## Pirámide DIKW:
+Sabiduría (Priorizar y decidir / Acción priorizada)
+	- Decisiones y mejora continua. (Estrategia de seguridad, políticas y priorización, mitigación de riesgos / Actualizar políticas, rediseñar la arquitectura, asignar recursos.)
+Conocimiento (Patrones y tendencias / Análisis de riesgo)
+	- Significado y contexto (Relaciones entre vulnerabildiades, causas y patrones (cwe), contexto del negocio / cwe-79 inyeccion xss comun en aplicaciones web)
+Información (CVE crítica en Product X / Contexto y relación)
+	-  Datos processados y organizados (CVE, CVSS, vectores de ataque, clasificacion y metrica, reportes y dashboards / cve 2026-1234, cvss: 9.8 (critica), exploit disponible )
+Datos (Logs, CVE, IP, CVSS / Registros aislados)
+	- Hechos sin contextos (Registros, eventos, logs; observaciones individuales, sin interpretación. / IP: 192.168.100.10, codigo 500, acceso fallido)
+
+-----
+###  La información como activo.
+Información (Activo que aporta valor y debe protegerse) 
+-> Valor para la organización (Procesos, decisiones y servicios, dependen de ella)
+-> Riesgos y amenazas (Alteración, pérdida, exposición o disponibilidad)
+-> Confidencialidad · integridad · disponibilidad (Propiedades escenciales del SGSI)
+-> Gestión de riesgo (Identificar -> Evaluar -> Tratar -> monitorear).
+*Proteger la información significa proteger el valor que sostiene al software y al negocio*
+
+-----
+## SGSI (Sistema gestion de seguridad de la informacion)
+**Definición**
+Es un marco para establecer, implementar, mantener y mejorar continuamente la seguridad del a información (ISO/IEC 270001:2022).
+
+**Propósito**
+Gestionar riesgos sobre la confidencialidad, integridad y disponibilidad de la información (ISO/IEC 270001:2022).
+
+**Base conceptual**
+Integra personas, procesos, tecnologías, y políticas para proteger activos de información (ISO/IEC 270001:2022).
+
+**En software**
+Orienta decisiones, controles y prioridades de seguridad a lo largo del ciclo de vida del sw
+
+_Proteger el valor _
+
+Van a revisar (ISO/IEC 270001:2022) aplicada al sw y proponer 
+Proyecto Parcial I: Chat con salas seguras. Desarrollar un aplicativo con salas de chat seguras con autenticación cada uno. QUe al enviar archivos modificados, detecte con escenografia. Sigue la norma (ISO/IEC 270001:2022). (Análisis, Diseño, Codificación, Pruebas, Producción)
 
 
 

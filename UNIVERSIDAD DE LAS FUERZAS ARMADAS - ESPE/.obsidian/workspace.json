@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ab2a0e4a2a2fda1",
+        "id": "686e5b228adcc262",
         "type": "tabs",
         "children": [
           {
-            "id": "ddb1fe14158c559e",
+            "id": "8226eebc04b7d1d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,11 +171,12 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "ddb1fe14158c559e",
+  "active": "8226eebc04b7d1d1",
   "lastOpenFiles": [
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la Calidad de Software.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de videojuegos.md",
+    "Pasted image 20261006100941.png",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la Calidad de Software.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
     "Sin título.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",

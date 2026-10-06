@@ -168,6 +168,19 @@ Ciberseguridad
 Protección del ecosistema digital frente  a amenazas, ataques y riesgos que afecta a personas, organizaciones y sistemas.
 
 Seguridad de aplicaciones.
+Protección de aplicaciones durante su ciclo de vida (desarrollo, pruebas, despliegue, y ejecución para evitar y mitigar vulnerabilidades)Software vs Programa vs Sistema
+
+
+Qué es la seguridad del sw
+Disciplina orientada a diseñar, desarrollar, desplegar y mantener sw capaz de resistri ataques, errores y condiciones adversas, reduciendo vulnerabilidades y riesgo.
+
+Seguridad del sw
+Propuedades y prácticas incorporadas al producto de software para prevenir, detectar y responder a amenazas.
+
+Ciberseguridad
+Protección del ecosistema digital frente  a amenazas, ataques y riesgos que afecta a personas, organizaciones y sistemas.
+
+Seguridad de aplicaciones.
 Protección de aplicaciones durante su ciclo de vida (desarrollo, pruebas, despliegue, y ejecución para evitar y mitigar vulnerabilidades)
 
 Seguridad de la información
@@ -259,20 +272,65 @@ Mejora continua: SE aprende mide y se fortalecen los controles.
 5. Pruebas de seguridad
 6. Hardening 
 Diseñar seguridad desde el inicio reduce exposición retrabajo y coste de correción.
+Respuesta: Acciones ante incidentes de seguridad
+Cumplimiento: alineacion con normas, estandares, y regulaciones.
 
-Cuales son las amenzas, 5 activos más .DE cada activo, identificar al menos 3 amenazas y un control para cada amenaza.
+Ejemplo practico:sistema de matriculas requiere:
+code seguro para evitar vulnerabilidades 
+infraestructura protegida para mantener la disponibilidad (ciberseguridad)
+pruebas de seguridad de aplicaciones 
+proteccion de los datos
 
-lección?
+---
 
+Control de lectura: LIFO
+## 0 Trust
+## Shifleft
 
+La importancia de la seguridad en el software.
+31 % de las brechas> Explotación de vulnerabilidades como vector de acceso inicial.
+	Explotación de vulnerabilidades > Aprovechando de fallas en software, configuraciones o componentes para obtener acceso no autorizado.
+	
+48 % de las brechas > Involucran a terceros / cadenas de suministro.
+	Ransomware > Cifrado de sistemas y datos para exigir un rescate, con alto impacto en la continuidad del negocio.
+40 % > más tasa mediana de clics exitosos en pishing móvil frente al correo electrónico.
+	Credenciales / Pishing móvil > Robo de credenciales mediante ing. social, especialmente a través de dispositivos móviles.
 
+ENISA 2024 > Amenazas principales: Disponibilidad, ransomware, 
+	Terceros / Cadena de suministros > Compromiso de proveedores y componentes de  terceros que impacta en toda la cadena de valor.
+	
+checkmarks
 
+*El panorama actual combina explotación técnica, terceros y amenazas cada vez más automatizadas.*
 
+-------
+## Las vulnerabilidades y sus costos.
+CVE > Exposición de vulnerabilidades comunes
+OWASP > (Open Worldwide Application Security Project)  Top 10 2025 
+A01: Pérdida de control de acceso
+A02: Configuración de seguridad incorrecta.
+A03: Fallas en la cadena de suministro de software.
+A04: Fallas criptográficas.
+A05: Inyección
+A06: Diseño inseguro
+A07: Fallas de autenticación
+A08: Fallas en la integridad del software o de lo datos
+A09: Fallas en el registro, alerta y monitoreo de seguridad.
+A10: Manejo inadecuado de condiciones excepcionales.
 
+-------
+## Gestion de vulnerabilidades mediante taxonomias
 
+CVE.- Identifica vulnerabilidades.
+CWE.- Describe la debilidad raíz.
+CVSS.- Puntúa severidad
+CPE / NVD.- Relaciona productos y contexto.
+CAPEC.- Conecta con patrones de ataque
+KEV / EPSS.- Prioriza explotación real y probable.
 
+Descubrir > Clasificar > Puntuar > Priorizar > Remediar > Verificar
 
-
+--------
 
 
 

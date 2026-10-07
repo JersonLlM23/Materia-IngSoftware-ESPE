@@ -406,14 +406,12 @@ control de acceso logico y autenticacion
 Activos fisicos. informacion, servicios. personales
 
 
-
-
-
-
-
-
-
-
+----
+ataque: accion concreta mediante la 
+impacto: las consecuencias o perdidas reales q se producen cuando una amenaza logra materializarse
+riesgo:
+control: medida tecnica, administrativa u perativa q busca reducr la probabilidad, el impacto o ambos
+verificacion: proceso posterior al despliegie del control para comprobar si realmente funciona y mitiga
 
 
 

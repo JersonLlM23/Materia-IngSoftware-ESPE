@@ -117,8 +117,14 @@ riesgo: estado global y dependencias ocultas
 
 ------
 Motor de videojuegos:
-Divide el tra
+Divide el trabajo para que programes tu juego.
+Conjunto de herramientas que permite construir y ejecutar un videojuego.
+Rendering dibuja graficos
+fisica: colisiones
+audio: sonido
+animacion (movimiento)
+escenas: niveles y menus
+entrada: teclado y mando
+scripting: gdscript
+recursos: modelos (blender)
 
-
-
-Comparar 3 motores con crierios tecnicos y recom

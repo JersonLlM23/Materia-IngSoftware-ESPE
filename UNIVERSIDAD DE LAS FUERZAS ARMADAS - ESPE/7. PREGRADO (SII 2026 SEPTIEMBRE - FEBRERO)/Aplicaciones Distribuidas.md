@@ -363,6 +363,82 @@ El **servidor** espera conexiones y el **cliente** inicia la comunicación.
 
 
 
+-----------
+Nodo.- Punto dentro de la conexión (se interconecta mediante aristas). No siempre va a ser un computador, pero tendrá al menos 1 procesador para  que pueda procesar.
+
+Hacker.- Sombrero blanco (genera productos sw que no tengan vulnerabilidades), negro, gris, rojo (busca vulnerabilidades y las corrige)
+
+	Cracker.- Modificar sistemas ya lanzados.
+
+Docker vs Sistema Operativos
+
+Falacias.- 
+La red es confiable, latencia es 0, el ancho de banda es infinito, la red es segura, la topología no cambia, hay un solo administrador.
+
+
+http Permite ver que información transita por la red
+y https q hacen meaing,www (red global), wwwc (red ..?? compañias que pertenecen a la standar de la red. Permite trabajar a todos en la web de la misma manera)
+
+Semántica en la web. 
+
+xml
+html
+
+Framework vs libreria
+
+La historia:
+
+1969 ARPANET 1er mensaje
+1978 Lamport relojes logicos
+1984 RPC / NFS Birell-NElson; Sun
+1989 World Wlde web CERN
+1991 CORBA Objetos distribuidos
+1999 P2P / SETI @ home napster: compute voluntario
+2000 REST - CAP Fielding: brewer
+2004 MapReduce  Google
+2006 Nube pública AWS 3 EC2
+2009 Bitcoin BLockchain
+2011 WebSocket RFC6455
+2014 Kubernets contenedores orquestados
+2024 Lavarel Reverb WebSOckets nativos php
+2026 IA en la nube K8s
+
+
+CAP
+Cuando ocurre una particion de red (P), es decir, cuando parte de los nodos no puede comunicarse con el resto, el sistema debe elegir entre C (responder solo con datos correctos, aunq rechace peticiones) y dispoinibilidad (a: responder siempre, aunque con datos posiblemente desactualizados). Como las particiones son inevtiables en una red real, la decision practica es q hacer cuando ocurren. CAP es un piunto de partida util pero simplificado; el diseño real exige analizar cada operación.
+
+porque no se pueden tener los 3 a la vez?
+
+
+ventajas 
+Esalabilidad
+Disponibilidad
+REndimiento
+COmpartir recursos
+Cercania geografica
+Independencia ecnologica y de equipos
+
+
+desventajas
+COmplejidad
+Fallos parciales
+Latencia de red
+COnsistencia
+seguridad
+prueba y depuracion
+
+
+-----
+diferencias 
+
+framework vs librerias
+lenguaje vs tecnologias
+concurrencia vs concurrencia en distribuida
+hilos vs hilos en sistemas distribuidos
+socket
+
+
+----------
 
 
 

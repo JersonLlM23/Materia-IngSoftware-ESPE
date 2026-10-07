@@ -358,14 +358,52 @@ Es una debilidad ue puede ser aprovechada por una amenaza
 
 
 
+-----
+*7/10/26*
+activo - amenaza - vulnerabilidad - ataque - impacto- riestgo - control - verificacion - activo - etc
+
+cada eslabon de la cadena responde a una pregunta especficia:
+q protegemos, q nos amenaza, cual es la debilidad, como se explota, cuales son las consecuencias, q probabilidad existe, como lo mitigamos, como confirmamos la solucion.
 
 
+sistemas de ifromacion
+sw: programas y aplicaciones q ejectuan tareas especificas.
+	Riesgos: errores de programacion, malware, puertas traseras
+
+Hardware: equipos ifsicos, computadoras, servers, routers, etc
+	riesgos: robo, daño fisico, acceo no autorizaod
+
+datos: informacion procesada y almacenada, a ctivo mas importante
+	riesgo: perdida, robo, alteracion, fuga
+
+personas: users, admins, tecnicos, q interactuan con el sistema
+	riesgos: error humano, negligencia, ing. social
+
+Procedimientos: Conjunto de reglas y pasos para operar el sistema
+	Riesgos: procesos mal definidos o no seguidos
+	
+Redes:  Infraestructura que conecta los sistemas y permite el flujo de datos.
+	Riesgos: intrusión, ataques DDoS, sniffing
+
+------------
+Activos: son recursos valiosos para la organizacion
+caracteristicas: son recursos, valor monetario, propiedad
 
 
+--------
+tipos de activos:
+tangibles (materiales): equipos informacticos, sv fisicos, equipos de red, perifericos, oficinas, contenedores, usb, etc
+Gestion de seguridad para activos tangibles:
+proteger fisicamente los dispositivos
+etiquetar y regstrar los activos
 
+intangibles:
+aplicaciones informaticas (erp, crm, etc)
+ gestores de copias de seguridad, S.O., comunicaciones )internet, telefono, correo)
+Gestion de seguridad para activos intangibes:
+control de acceso logico y autenticacion 
 
-
-
+Activos fisicos. informacion, servicios. personales
 
 
 

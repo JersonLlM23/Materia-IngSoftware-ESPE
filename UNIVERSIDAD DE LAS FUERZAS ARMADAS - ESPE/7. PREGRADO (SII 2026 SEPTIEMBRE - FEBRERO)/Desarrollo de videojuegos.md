@@ -128,3 +128,162 @@ entrada: teclado y mando
 scripting: gdscript
 recursos: modelos (blender)
 
+----
+Godot
+ingredientes -> motor -> videojuego.
+(Codigo - escenas - recursos - fisica - audio - input) -> godot engine -> videojuego 
+
+node: pizza
+scene: conjunto de nodos
+scene tree: arbol de nodos
+inspecto edita propiedades
+script gdscript
+signals eventos
+
+---
+Como elegir un videojuego?
+tipo de juego: 2d, 3d, movil, web
+equipo y experiencia: lenguajes q ya se conocen
+plataforma de deiseño: pc, movil, consola, web
+licencia y costo: libre, gratuita o de pago
+comunidad y documentacion: tutoriales
+rendimiento y escala: tamaño del proyecto
+
+No existe el mejor motor: existe el más adecuado para el proyecto
+
+-----
+del code a videojuego
+programacion -> ing sw -> patrones -> motor -> videojuego.
+
+Un juego es un sistema vivo: cada mecánica bien ordenada te permite añadir la siguiente sin romper lo anterior
+
+-----
+Que es diseñar un juego
+idea - diseño - produccion  - pruebas - lanzamiento
+
+Diseño: define q hace el jugador y pq es divertido
+programacion: hace lo diseñado funcoine
+documento: gdd (guia comun todo el equipo)
+Un buen diseño evita cambios costosos durante el desarrollo 
+
+------
+8 pasos del diseño:
+1. idea
+2. publico
+3. genero
+4. mecanicas
+5. reglas
+6. narrativa
+7. arte y sonido
+8. prototipo
+
+despues documentar (gdd) · definir el alcance actividad en grupos
+
+----
+roles en la fase de diseño.
+Un videojuego se diseña en equipo.
+Director creativo.- define la vision del game
+game designer.- mecanicas, reglas y bucles
+level designer.- estructura y ritmo de los niveles
+narrative designer.- historia, personajes y dialogos
+diseñador ux/ui.- interfaz y experiencia del usuario
+artista / dir. de arte.- estilo visual coherente
+diseñador de sonido.- efectos y musica
+programador.- viabilidad tecnica y prototipos
+productor.- planifica tiempo y alcance
+qa/tester.- prueba y reporta problemas.
+
+En equipos pequeños, una persona cumple varios roles
+
+-------
+1. Idea: director creativo. game designer
+2. publico y plataforma.- productor, diseñador ui,ux
+3. genero y referencias game desginer, dir. de arte
+4. mecanicas: game designer, programador
+5. reglas y objetivos: game designer, level designer, qa
+6. narrativa y mundo: narrative designer, artista
+7. arte, sonido einterfaz: artista ,sonido, ui/ux
+8. prototipo y pruevas
+
+
+-------
+PASO 1: LA IDEA Y EL CONCEPTO
+resumme tu juego en una sola frase:
+Un (personaje) que (accion) en (mundo) para (objetivo)
+ejm: un robot que recoge baterias en una cueva oscura para volver a casa
+
+PASO 2: Público y plataforma
+Jugador objetivo: edad y experiencia
+Duración: sesion de 2 min o de 1 hr
+plataforma: pc, movil, o web
+controles: teclados, tactil o mando
+accesibilidad: contraste subtitulos, daltonismo
+alcance: equipo y tiempo disponible
+
+Ejemplo: juego casual de 5 min para movil en un solo boton
+
+Paso 3: genero y referencias
+plataformas: saltar y esquivar
+puzzle: resolver acertijos
+arcade: puntuacion y reflejos
+aventura: explorar y narrar
+estrategia: planificar recursos
+supervivencia: gestionar riesgo.
+
+elige 2 juegos de referencia y anota q tomaras de cada uno
+
+PASO4: Mecanicasy buble de juego
+el core loop es lo q el jugador repite:
+accion -> regla -> respuesta -> recompensa -> repetir
+
+
+paso 5: reglas y objetivos
+objetivo: q debe lograr
+victoria: cuando gana
+derrota: vidas o tiempo
+dificultad: sube gradualmente
+
+paso 6:  narrativa, personajes y mundo
+da contexto y motivacion al jugador
+
+Personaje -> conflicto -> mundo -> meta
+(qn es y q quiere) -> (q se lo impide) -> (donde ocurre y sus reglas) -> (humor misterio o epico)
+
+Paso 7: coherencia visual y sonora antes q complejos complejos
+arte (krita). un estilo visualmente coherente
+3d (blender): solo si el alcance lo permite
+audio (audacity): efectos y musicas simples 
+intefaz (hub): mostrar solo lo necesario
+
+Paso 8: prototipo, y pruebas de jugabilidad
+probar pronto es mas barato q corregir tarde
+papel - prototipo - playtest - ajustes - iterar
+
+prototipo en papel
+playtest
+anota lo q el jugador hace, no solo lo q dice
+
+-------
+El documento de diseño (GDD)
+guia viva del proyecto
+concepto pitch y publico
+mecanicas bucle y reglas
+niveles estuctura y dificultad
+personajes rol y aspecto
+arte y audio estilo y referencias
+tecnologia motor y herramientas
+alcance mvp y prioridades 
+cronograma hitos y responsables
+se acualiza con cada decision del equipo
+
+
+-----
+
+Alcance y planificacion. iseña pequeño, termina y luego amploa
+imprescindible mvp (movimiento, objetivo, victoria o derrota)
+deseable (sonido, niveles extra, menu)
+opcional (logros, historia, multijgador)
+mvp: la version minima q ya se peude jugar
+error comun: diseñar un juego enorme para un equipo pequeño
+
+----

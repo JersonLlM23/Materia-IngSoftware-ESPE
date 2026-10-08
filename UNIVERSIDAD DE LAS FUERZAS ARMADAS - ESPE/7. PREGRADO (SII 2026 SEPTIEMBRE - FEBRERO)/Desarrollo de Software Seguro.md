@@ -377,10 +377,10 @@ Información (Activo que aporta valor y debe protegerse)
 -----
 ## SGSI (Sistema gestion de seguridad de la informacion)
 **Definición**
-Es un marco para establecer, implementar, mantener y mejorar continuamente la seguridad del a información (ISO/IEC 270001:2022).
+Es un marco para establecer, implementar, mantener y mejorar continuamente la seguridad del a información (ISO/IEC 27001:2022).
 
 **Propósito**
-Gestionar riesgos sobre la confidencialidad, integridad y disponibilidad de la información (ISO/IEC 270001:2022).
+Gestionar riesgos sobre la confidencialidad, integridad y disponibilidad de la información (ISO/IEC 27001:2022).
 
 **Base conceptual**
 Integra personas, procesos, tecnologías, y políticas para proteger activos de información (ISO/IEC 270001:2022).
@@ -388,14 +388,62 @@ Integra personas, procesos, tecnologías, y políticas para proteger activos de 
 **En software**
 Orienta decisiones, controles y prioridades de seguridad a lo largo del ciclo de vida del sw
 
-_Proteger el valor _
+_Proteger el valor del negocio mediante la gestión sistemática _
 
-Van a revisar (ISO/IEC 270001:2022) aplicada al sw y proponer 
+Van a revisar (ISO/IEC 27001:2022) aplicada al sw y proponer 
 Proyecto Parcial I: Chat con salas seguras. Desarrollar un aplicativo con salas de chat seguras con autenticación cada uno. QUe al enviar archivos modificados, detecte con escenografia. Sigue la norma (ISO/IEC 270001:2022). (Análisis, Diseño, Codificación, Pruebas, Producción)
 
 
+**Analizar el OWASP TOP 10 de apis y OWASP top 10 de xxxx? (amenazas comunes para apis y aplicaciones web)**
+
+--------
+
+Proceso de gestión de riesgo en un SGSI.
+1. Identificar.- Activos, amenazas, vulnerabilidades y escnearios
+2. Analizar.- Probabilidad e impacto del riesgo.
+3. Evaluar.- Compara con crietrios y apetito de riesgo
+4. Tratar.- Evitar, mitigar, transferir o aceptar.
+5. Monitorear.- Seguimiento continuo y revisión
+
+Riesgo = Probabilidad x Impacto
+Por ejm: API expuesta con CVE critica.
+
+1.  
+enviando archivos. Nuestro chat soporta: Imagen, audio, video (e incluso de 1 sola vista), 
+la 1 version: documentos, 2 version: archivos multimedia.
+
+como detectar estenografia: quizas un modelo de ia, libreria 
+
+2. que tan probable es una inyeccion sql . Que tan probable es q ocurra un tipo de ataque de estenografia 
 
 
+----
+**Relación con la seguridad en el software**
+1. **Requisitos** : Criterio e historias de seguridad. 
+2. **Diseño:** Threat modeling y arquitectura segura.
+3. **Desarrollo:** Revisión de código y dependencias.
+4. **Pruebas:** SAST/DAST y validación
+5. **Despliegue:** Hardening y CI/CD seguro.
+6. **Operación:**  Monitoreo y respuesta.
+
+El SSDF identifica recomienda integrar prácticas seguras en todo el SDLC para reducir vulnerabilidades y sus causas raíz (NIST SP 800-218, 2022)
+El SGSI aporta gobierno, criterio y controles.
+
+-----
+**Normas y marcos que apoyan este propósito**
+ISO / IEC 27 000:2026
+	Conceptos y principios del SGSI
+ISO / IEC 27 001:2022
+	Requisitos del SGSI
+ISO / IEC 27 002:2022
+	Controles de seguridad
+ISO / IEC 27 005:2022
+	Gestión del riesgo
+Nist CSF2.0 2024
+	Funciones para gestionar riesgo cibernético
+NIST SP 800 - 218 (2022)
+	Practicas de desarrollo seguro
+NIST SP 800 - 61r4 025 integra respuesta a incidentes con la gestión del riesgo
 
 
 

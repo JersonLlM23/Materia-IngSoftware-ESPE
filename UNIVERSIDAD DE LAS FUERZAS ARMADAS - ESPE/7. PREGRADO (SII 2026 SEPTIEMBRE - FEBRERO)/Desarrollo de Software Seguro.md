@@ -446,6 +446,61 @@ NIST SP 800 - 218 (2022)
 NIST SP 800 - 61r4 025 integra respuesta a incidentes con la gestión del riesgo
 
 
+-------
+**PHVA y Mejora continua**
+Planificar.- Politicas, objetivos, criterioes y plan de tratamiento ->
+Hacer.- Implementar controles y prácticas ->
+Verificar.- Auditar, medir y revisar incidentes. ->
+Actuar.- Corregir, prevenir y mejorar
+Ciclo continuo de mejora continua
+La respuesta a incidentes debe integrarse a la gestión del riesgo (NIST SP 800 - 61r3, 2025)
+La mejora continua es un requisito del SGSI (ISO / IEC 27001 - 2022).
+
+Medir -> aprender -> ajustar -> fortalecer
+
+-----
+Ejemplo:
+
+1. Contexto y alcance.
+	Organización: Comercio electrónico
+	Alcance SGSI: API de pedido base de datos de clientes y consola administrativa.
+	Activos criticos: datos personales, ordenes, credenciales, disponibles del servicio.
+
+2. Método de análisis.
+	Identificar activos, amenazas y vulnerabilidades.
+	Valorar probabilidad (1-5) e impacto (1-5)
+	Riesgo inherente = P x I
+		(iso 27005:2022 nist csf 2024)
+	Riesgo I P I i I Nivel
+	Inyección SQL en /orders I 4 I 5 I 20 alto
+	Robo de credenciales de dmin I 3 I 5 I 15 Alto
+	Backup expuesto sin cifrado I 3 I 4 I 12 medio-alto
+
+Hallazgo: Los principales  riesgos afectan confidencialidad, integridad, y disponibilidad, el riesgo inicial supera el apetito definido y requiere tratamiento.
+
+3. Tratamiento
+	Inyección SQL: Consultas, parametrizadas, WAF, SAST/DAST
+	Credenciales ADMIN: MFA, PAM, y revisión de accesos.
+	Backups: Cifrado, acceso minmo
+
+4. Medicion del riesgo residual
+Revision de pribilegios = 100% mensual
+Exito de restuaruacion >= 95%
+MTTD < 4h
+Cobertura MFA admins? = 100%
+REstauraciones exitosas = 100%
+
+Riesgo I INICIAL I RESIDUAL I ESTADO
+
+
+
+Analizar. activos - vulnerabilidades y riesgos de los activos.
+cada uno 5 riesgos.
+Calcular el riesgo la tabla del 2. 
+
+
+------
+
 
 
 

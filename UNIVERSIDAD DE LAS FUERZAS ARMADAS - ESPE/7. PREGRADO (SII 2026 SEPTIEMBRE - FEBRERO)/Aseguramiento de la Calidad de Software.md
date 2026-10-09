@@ -112,6 +112,81 @@ Uno de los factores para promover un proceso de mejoramiento continuo de la cali
 
 ----
 
+## Aseguramiento de la calidad (SQA)
+### Aseguramiento de la calidad 
+Es el conjunto de acividades planificadas y sistematicas neceasrias para aportar la confianza que el sw satisfara los req dados de calidad. ESte aseguraimiento se dseña para cada aplicacion antes de comenzar a desarrollarla y no despues. El aseguramiento de la calidad del sw engloba:
+
+**Técnicas de aseguramiento de la calidad**
+Las técnicas de adminsitracion de calidad de sw pueden ser clasificadas en muchos sentidos: entaticas, personales-intensivas, analiticas y dinamicas.
+TEcnicnas para evaluacion de la calidad:
+Las mediciones que se realizan sobre la calidad pueden tener . . .
+
+
+Aseguramiento de la calida SQA:
+Proceso sistemataico para garantizar q el sw cumpla con reeq funcionales y no funcionales.
+OBJETIVOS:
+- detectar errores temprano
+- mejorar experiencia del user
+- reducir scostos de mantenimiento
+enfoques modernos, automaticacion ci/cd , IA
+
+- Enfoque de gestion de claidad
+- metodos y herramientas dentro de ing sw
+- revisiones tecnicas formales aplicables en el proceso de sw
+- usna estrategia de prueba multiescala
+- el control de la documentacion del sw y de los cmabios realizados
+- procedimientos para ajustarse a los estandares de desarrollo del sw
+- mecanismos de medicion y generacion de informes
+
+**Portabilidad, usabilidad, reusabilidad, correcteness, mantanibildiad, error control**
+
+
+------
+Quality assurance QA: Mejoramiento continuo por medio de plan, do, check, act process
+La mejora continua es un esfuerzo continuo para mejorar productos, servicios o procesos.
+Estos esfuerzaos pueden buscar una mejora inceremental a lo largo del tiempo o una mejora revolucionaria de una sola vez.
+PDCA Deming es la herramienta mas usada ara la mejora continua.
+
+QUE ES CYCLE PDCA
+
+
+-----
+TECNIAS PARA EL ASEGURAMIENTO
+TEcnincas estaticas:
+se aplican sin sjecutar el code - enfocadas en prevenir defectos (revision code, analisis estatico)
+tecnicas dinamicas: 
+requieren ejecucion del sw - enfocadas en detectar defectos (preubas unitarias, pruebas de cargas)
+
+
+
+Tecnicas estaticas: prevencion antes de la ejecucion
+anlisis delsw sin ejecutarlo, enfocado en encontrar errores en diseño arquitectura codigo fuente o documentacion
+Tipos principales:
+reiciones tecnicas (inspecciones, recision por pares)
+analisis estatido de codigo SAST
+metricas de calidad (complejidad, duplicacion
+
+ventajas: detectar errores temprano, reducen costos de correcion, nmejorar legibildida y mantenibilidd.
+Por ejm: usar pylint para revisar un script python antes de su ejeccion)
+
+
+
+
+
+**JUEVES PRUEBA LOL**
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

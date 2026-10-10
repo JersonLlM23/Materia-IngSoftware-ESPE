@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fe14bd29795f8c89",
+        "id": "b09262364e9d560b",
         "type": "tabs",
         "children": [
           {
-            "id": "4e75f78e250b6294",
+            "id": "5cc3dae7e5ea3e2c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Clase1_Sistemas_Distribuidos.pdf"
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Clase1_Sistemas_Distribuidos"
+              "icon": "lucide-file",
+              "title": "Apuntes_Aseguramiento_Calidad_SW"
             }
           }
         ]
@@ -169,17 +171,20 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "4e75f78e250b6294",
+  "active": "5cc3dae7e5ea3e2c",
   "lastOpenFiles": [
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Clase 2 Distribuidos.pdf",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Apuntes_AplicacionesDistribuidas.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la Calidad de Software.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de videojuegos.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Clase 2 Distribuidos.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Clase1_Sistemas_Distribuidos.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Apuntes_AplicacionesDistribuidas.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Sistemas Distribuidos.md",
     "Pasted image 20261006100941.png",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
     "Sin título.md",
     "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Sistemas de bases de datos avanzados..md",
     "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Ingeniería de Requisitos_20260818_090624.md",

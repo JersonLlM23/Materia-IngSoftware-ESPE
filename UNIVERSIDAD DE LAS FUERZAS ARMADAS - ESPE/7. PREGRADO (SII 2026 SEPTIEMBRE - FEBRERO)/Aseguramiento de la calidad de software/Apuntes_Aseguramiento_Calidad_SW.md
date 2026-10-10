@@ -111,7 +111,6 @@ Uno de los factores para promover un proceso de mejoramiento continuo de la cali
 - UX: tiempo promedio para completar una tarea, tasa de abandono en procesos clave, encuestaas de satisfacciòn (NPS, CSAT)
 
 ----
-
 ## Aseguramiento de la calidad (SQA)
 ### Aseguramiento de la calidad 
 Es el conjunto de acividades planificadas y sistematicas neceasrias para aportar la confianza que el sw satisfara los req dados de calidad. ESte aseguraimiento se dseña para cada aplicacion antes de comenzar a desarrollarla y no despues. El aseguramiento de la calidad del sw engloba:

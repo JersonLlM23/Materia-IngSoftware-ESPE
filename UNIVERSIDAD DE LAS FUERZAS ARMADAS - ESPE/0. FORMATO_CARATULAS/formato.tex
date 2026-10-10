@@ -1,0 +1,148 @@
+\documentclass[a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Cambria}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish]{babel}
+\addto\captionsspanish{
+  \renewcommand{\tablename}{Tabla}
+    \renewcommand{\listtablename}{\'Indice de tablas}
+    \renewcommand{\listfigurename}{\'Indice de figuras}
+}
+\usepackage{float}
+
+\usepackage{geometry}
+\geometry{margin=2.5cm} % márgenes normales para todo
+
+\newcommand{\safeincludegraphics}[2][]{%
+    \IfFileExists{#2}{%
+        \includegraphics[#1]{#2}%
+    }{%
+        \fbox{%
+            \begin{minipage}[c][0.28\textheight][c]{0.78\textwidth}
+                \centering
+                \textbf{Imagen no disponible}\\
+                #2
+            \end{minipage}%
+        }%
+    }%
+}
+
+% =========================
+% FORMATO Y ESTILO
+% =========================
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Color de títulos
+\definecolor{primary}{RGB}{0,0,0}
+
+% Hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary
+}
+
+% =========================
+% ENCABEZADO Y PIE DE PÁGINA
+% =========================
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{APLICACIONES DISTRIBUIDAS}
+\fancyhead[R]{PARCIAL I}
+
+\fancyfoot[C]{\thepage}
+
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+% =========================
+% ESTILO DE TÍTULOS
+% =========================
+\titleformat{\section}
+    {\Large\bfseries\color{primary}}
+    {\thesection.}
+    {0.5em}
+    {}
+    [\vspace{2pt}\titlerule]
+
+\titleformat{\subsection}
+    {\large\bfseries\color{primary}}
+    {\thesubsection}
+    {0.5em}
+    {}
+
+
+\begin{document}
+\pagestyle{fancy}
+\hypersetup{pageanchor=false}
+
+\begin{titlepage}
+\begin{tikzpicture}[remember picture, overlay]
+
+% Imagen de fondo
+\node at (current page.center) {
+    \includegraphics[width=\paperwidth,height=\paperheight]{CaratulaGENERAL.png}
+};
+
+% Texto encima
+\node at (current page.center) {
+\begin{minipage}{0.8\textwidth}
+\centering
+
+{\LARGE \textbf{Universidad de las Fuerzas Armadas - ESPE}\\
+\textbf{Carrera de Software}\\[0.1cm]
+\textbf{Materia}\\[9cm]}
+
+
+{\LARGE \textbf{Actividad No.X - Parcial X:}\\[0.4cm]}
+{\Large \textbf{Título de la actividad.}}\\[0.8cm]
+
+{\LARGE \textbf{Docente:}\\[0.2cm]}
+{\Large Nombre del Docente\\[0.6cm]}
+
+{\LARGE \textbf{NRC:}\\[0.2cm]}
+{\Large X\\[0.6cm]}
+
+{\LARGE \textbf{Estudiante:}\\[0.2cm]}
+{\Large Llumiquinga M. Jerson\\[2cm]}
+
+{\Large \textit{Sangolquí, 18 de junio de 2026}}
+
+\end{minipage}
+};
+
+\end{tikzpicture}
+\end{titlepage}
+
+\clearpage
+\hypersetup{pageanchor=true}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\clearpage
+
+\section{Introducción}
+ASD
+\section{Objetivos}
+\subsection{Objetivo General}
+\subsection{Objetivos Específicos}
+
+\section{Marco Teórico}
+\section{Desarrollo}
+\section{Referencias}
+\end{document}

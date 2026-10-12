@@ -4,20 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "e732da76a2bebccb",
+        "id": "b09262364e9d560b",
         "type": "tabs",
         "children": [
           {
-            "id": "702b3452935928ff",
+            "id": "5cc3dae7e5ea3e2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "pdf",
+              "state": {
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1. desarrollo-seguro-unidad1"
+            }
+          },
+          {
+            "id": "b64eb8fe4e059517",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Apuntes_Desarrollo_SW_Seguro"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,14 +184,15 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "293e191c539cdd15",
+  "active": "b64eb8fe4e059517",
   "lastOpenFiles": [
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/PROYECTO INTEGRADOR -RESUMEN - DESARROLLO SW SEGURO.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/desarrollo-seguro-unidad1.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de videojuegos.md",

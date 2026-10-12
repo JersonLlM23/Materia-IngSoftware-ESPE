@@ -331,9 +331,7 @@ KEV / EPSS.- Prioriza explotación real y probable.
 Descubrir > Clasificar > Puntuar > Priorizar > Remediar > Verificar
 
 --------
-Prueba: Vector de ataque av.n/ac.l/pr-
-https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
-un caso o nos da el vector de ataque e identificarlo 
+
 
 ![[Pasted image 20261006100941.png]]
 

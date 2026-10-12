@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b09262364e9d560b",
+        "id": "e732da76a2bebccb",
         "type": "tabs",
         "children": [
           {
-            "id": "5cc3dae7e5ea3e2c",
+            "id": "702b3452935928ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_Aseguramiento_Calidad_SW"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -171,12 +167,15 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5cc3dae7e5ea3e2c",
+  "active": "293e191c539cdd15",
   "lastOpenFiles": [
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/desarrollo-seguro-unidad1.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de videojuegos.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",

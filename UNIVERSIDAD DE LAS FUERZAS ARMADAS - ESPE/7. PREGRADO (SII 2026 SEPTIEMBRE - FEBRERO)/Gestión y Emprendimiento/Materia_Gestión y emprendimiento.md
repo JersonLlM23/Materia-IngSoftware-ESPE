@@ -63,8 +63,10 @@ Emprendimiento segun joseph schumpeter
 
 
 
+---------
 
 
+El sistema financiero nacional, conocido como SFN es el conjutno de instituciones funancieras reguladas por la 
 
 
 UNIDAD II: Padre rico, padre pobre: Robert

@@ -1,54 +1,37 @@
 {
   "main": {
-    "id": "8cc70b8f39f87be4",
+    "id": "11312009a3628637",
     "type": "split",
     "children": [
       {
-        "id": "b09262364e9d560b",
+        "id": "701ead9807f340b9",
         "type": "tabs",
         "children": [
           {
-            "id": "5cc3dae7e5ea3e2c",
+            "id": "4e2d326a0a5dfed4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "1. desarrollo-seguro-unidad1"
-            }
-          },
-          {
-            "id": "b64eb8fe4e059517",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_Desarrollo_SW_Seguro"
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bf0d90ab1dd9421e",
+    "id": "1a29fab9c05d4d95",
     "type": "split",
     "children": [
       {
-        "id": "14b8c407346e6b51",
+        "id": "4b226645f4f298c8",
         "type": "tabs",
         "children": [
           {
-            "id": "293e191c539cdd15",
+            "id": "4f5412f97166d2d1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,12 +46,12 @@
             }
           },
           {
-            "id": "ed9eace678aa3521",
+            "id": "9cdea6d547d907ea",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "\"vs\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,11 +63,14 @@
             }
           },
           {
-            "id": "3c6d54d4db586932",
+            "id": "e46daf3f5b2ed58f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
@@ -96,20 +82,20 @@
     "width": 300
   },
   "right": {
-    "id": "0c9ebf0df1518a34",
+    "id": "886c56ba68cfb6a6",
     "type": "split",
     "children": [
       {
-        "id": "331daf41210a54b3",
+        "id": "6119a14879f60afb",
         "type": "tabs",
         "children": [
           {
-            "id": "6bb72680be6c362a",
+            "id": "a5657fad3d40f84f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Sistemas Operativos"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "5f4d89dabfcade7a",
+            "id": "51ba2844c520c0b0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Sistemas Operativos"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "4f145a8a89be9957",
+            "id": "ad1739af295600a8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +138,18 @@
             }
           },
           {
-            "id": "b4dbe5dde40b5fa6",
+            "id": "075b2a5404484371",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
+                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Sistemas Operativos"
+              "title": "Esquema"
             }
           }
         ]
@@ -184,37 +170,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "b64eb8fe4e059517",
+  "active": "4f5412f97166d2d1",
   "lastOpenFiles": [
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/PROYECTO INTEGRADOR -RESUMEN - DESARROLLO SW SEGURO.pdf",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de videojuegos.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Clase 2 Distribuidos.pdf",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Clase1_Sistemas_Distribuidos.pdf",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aplicaciones Distribuidas/Apuntes_AplicacionesDistribuidas.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Sistemas Distribuidos.md",
-    "Pasted image 20261006100941.png",
-    "Sin título.md",
-    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Sistemas de bases de datos avanzados..md",
-    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Ingeniería de Requisitos_20260818_090624.md",
-    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Sistemas de bases de datos avanzados._20260818_090624.md",
-    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Redes de Computadoras..md",
-    "5. PREGRADO (S II 2025 OCTUBRE - MARZO)/Redes de Computadoras._20260818_090624.md",
-    "6. PREGRADO (S I 2026 ABRIL - AGOSTO)/Sistemas Operativos.md",
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)",
-    "Pasted image 20260422101149.png",
-    "Pasted image 20260708094934.png",
-    "Pasted image 20260708094343.png",
-    "Pasted image 20260708093922.png",
-    "Pasted image 20260708093915.png",
-    "Pasted image 20260708093616.png"
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y Emprendimiento/Gestión y emprendimiento.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y Emprendimiento/SISTEMA_FINANCIERO_ECUATORIANOpptx.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y Emprendimiento",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Nueva carpeta",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md"
   ]
 }

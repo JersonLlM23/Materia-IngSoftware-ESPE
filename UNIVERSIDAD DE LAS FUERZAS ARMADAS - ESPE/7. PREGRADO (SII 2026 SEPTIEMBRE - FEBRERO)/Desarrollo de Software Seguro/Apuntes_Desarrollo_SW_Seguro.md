@@ -392,7 +392,7 @@ Van a revisar (ISO/IEC 27001:2022) aplicada al sw y proponer
 Proyecto Parcial I: Chat con salas seguras. Desarrollar un aplicativo con salas de chat seguras con autenticación cada uno. QUe al enviar archivos modificados, detecte con escenografia. Sigue la norma (ISO/IEC 270001:2022). (Análisis, Diseño, Codificación, Pruebas, Producción)
 
 
-**Analizar el OWASP TOP 10 de apis y OWASP top 10 de xxxx? (amenazas comunes para apis y aplicaciones web)**
+**Analizar el OWASP TOP 10 de apis y OWASP top 10 de aplicaciones web (amenazas comunes para apis y aplicaciones web)**
 
 --------
 

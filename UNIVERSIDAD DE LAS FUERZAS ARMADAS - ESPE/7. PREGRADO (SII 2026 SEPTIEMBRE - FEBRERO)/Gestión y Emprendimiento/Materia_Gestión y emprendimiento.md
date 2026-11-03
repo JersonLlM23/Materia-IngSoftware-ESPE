@@ -65,12 +65,70 @@ Emprendimiento segun joseph schumpeter
 
 ---------
 
+Propósito:
+- Construir un presupuesto personal mensual desde 0.
+- Separar gastos necesarios, discrecionales y obligaciones financieras.
+- Medir capacidad de pago antes de asumir una nueva deuda.
+- Detectar señales tempranas de sobreendeudamiento.
+- Aplicar estrategias de priorización y reducción de deuda.
 
-El sistema financiero nacional, conocido como SFN es el conjutno de instituciones funancieras reguladas por la 
+-----
+Una metodología que empieza con la reflexión.
+La plataforma: "Yo decido: mi futuro, y mis finanzas" usa una metodología clave: a partir de la experiencia de las personas para comprender y aplicar conceptos financieros.
+
+1. REFLEXIONAR (cómo gestiono hoy mi $, qué decisiones repito, que me preocupa)
+2. COMPRENDER (identificar relaciones entre ingresos, gastos y obligaciones; Presupuesto - ahorro - deuda)
+3. DECIDIR (comparar alternativas, actuar con un plan)
+
+
+-------
+Presupuesto personal.
+Plan que anticipa como se distribuiran llos ingresos durante un periodo para cubrir necesdades, cumplir obligaciones, ahorrar y alcanzar objetivos.
+
+Ingresos: Disponibles
+Gastos: Necesarios
+Resultado: Ingreso - gastos-
+
+
+---------
+Procedimiento para construir un presupuesto:
+1. Definir período: mes calendario
+2. listar objetivos: netos y recurrentes
+3. registrar gastos fijos: arriendo, servicios y cuotas.
+4. estimar variables: alimentación, transporte, ocio
+5. separar ahorro: meta + emergencia
+6. calcular saldo: ingresos - egresos
+7. ajustar: priorizar y monitorerar
+
+saldos: ingresos - gastos - 
+
+
+---------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------
 
 
 UNIDAD II: Padre rico, padre pobre: Robert
-
 
 
 

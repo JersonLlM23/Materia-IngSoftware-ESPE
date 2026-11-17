@@ -1,4 +1,4 @@
-*
+# PRIMER PARCIAL
 
 ENTORNOS GREENFILE
 Iniciar desde 0, desde los requisitos hasta 
@@ -535,4 +535,7 @@ Calcular el riesgo la tabla del 2.
 
 
 
+# SEGUNDO PARCIAL
+
+Extraer - limpiar- representar- aprender - evlauar - explicar
 

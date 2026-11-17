@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cb9e76d5b1a06edf",
+        "id": "565c1ed817826a4a",
         "type": "tabs",
         "children": [
           {
-            "id": "62e311db82cad43e",
+            "id": "de7a2df479f66675",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Apuntes_Desarrollo_SW_Seguro"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -174,12 +170,17 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "62e311db82cad43e",
+  "active": "de7a2df479f66675",
   "lastOpenFiles": [
-    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/Apuntes_Aseguramiento_Calidad_SW.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Ing. de la seguridad de Software.md",
+    "2026-11-14.md",
+    "Sin título.canvas",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Aseguramiento de la calidad de software/1. Introduccion a la calidad.pdf",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/Apuntes_Desarrollo_SW_Seguro.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/desarrollo-seguro-unidad1-tema1.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y Emprendimiento/Materia_Gestión y emprendimiento.md",
+    "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Desarrollo de Software Seguro/1. desarrollo-seguro-unidad1.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y Emprendimiento/SISTEMA_FINANCIERO_ECUATORIANOpptx.pdf",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y emprendimiento.md",
     "7. PREGRADO (SII 2026 SEPTIEMBRE - FEBRERO)/Gestión y Emprendimiento/Gestión y emprendimiento.md",

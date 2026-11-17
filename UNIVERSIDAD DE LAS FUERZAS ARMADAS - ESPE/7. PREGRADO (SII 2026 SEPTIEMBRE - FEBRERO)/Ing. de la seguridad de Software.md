@@ -423,12 +423,84 @@ verificacion: proceso posterior al despliegie del control para comprobar si real
 
 
 
+# **UNIDAD II**
+
+Estenografia: se esconde el msj
+Criptografia: se ve el msj pero no se entiende
+
+elementos: llave y
+
+Julio Cesar
+alquindi: probabilidad de repiticion de letras
 
 
+simetrica: 1 llave es compartida y generada como medio de encriptacion/descrip (aes, chacha20)
+asimetrica: dos paredes llave: 1 priv y otra compartida aniel general (rsa, ecc, ecdh, ed25519)
+Hash: una huella digital de los datos. No se puede revertir (sha-256, sha-3)
+
+-------
+clave, algoritmo estandar y procolo
+una clave es una secuencia de bits ejm: 
+algortimo proceso matematico
+estandar
+especificacion tecnica formal
+protocolo 
+reglas para cominicarse
+clave
+informacion q usa el algorimo
+biblioteca
+software que implementa
+
+--------
+cifrado simetrico: una key para cerrar y abrir
+. . .
+AES: El cubo de rubik de los bits
+1. subytes
+2. shiftwows
+3. mixcolumns
+4. addroundkey
+
+128 bits 10 rondas mezcla de los 4 paos
+192 12 
+256 14
+
+foto
+
+tamos atrasaos
+
+--------
+cifrado asimetrico: 2 llaves: una publica y una privada
+RSA:
+
+ECC ECDH
+ED25519
+
+"diagrama: cifrar con la pública, descifrar con la privada"
+
+firma digital: hash + clave privada
+ubuntu
+ECDH
 
 
+hash: huella digital de los datos
+unidireccional longitud fija 
+efecto avalancha 
+para q sirve y q algoritmos existen
 
+md5 inseguro
+sha-1 256 512 
+sha3-256 vigente 
 
+confidencialidad de daots
+interacmbio de claves y firmas
+huellas e integridad
+dificulad de adivinar una contraseña
 
-
-
+---
+modelo hibrido y  tls https
+1. conexcion 
+2. certificado
+3. secreto compartido
+4. claves de sesion
+5. cifrado simetrico
+6. integridad
